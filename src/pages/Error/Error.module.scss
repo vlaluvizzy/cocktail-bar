@@ -1,0 +1,21 @@
+.error-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #ffa500;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        padding: 20px;
+    }
+
+    &__link {
+        color: black;
+    }
+}

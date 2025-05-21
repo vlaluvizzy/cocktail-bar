@@ -1,0 +1,16 @@
+.sidebar-link {
+    padding: 2px 0;
+
+    &,
+    &_active {
+        text-decoration: none;
+    }
+
+    &:hover {
+        background-color: #bd380c;
+    }
+    &_active {
+        color: white;
+        background-color: #bd380c;
+    }
+}

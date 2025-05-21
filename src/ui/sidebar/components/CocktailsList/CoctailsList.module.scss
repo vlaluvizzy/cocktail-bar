@@ -1,0 +1,15 @@
+.cocktails-list {
+    display: flex;
+    flex-direction: column;
+    padding: 16px 0;
+
+    &__title {
+        margin-bottom: 8px;
+        padding: 0 16px;
+    }
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+    }
+}

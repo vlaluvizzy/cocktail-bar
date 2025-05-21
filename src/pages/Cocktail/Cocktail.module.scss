@@ -1,0 +1,20 @@
+.cocktail-page {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 32px 0;
+
+    @media (max-width: 768px) {
+        margin: 48px 0;
+    }
+}
+
+.cocktail-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 0 16px;
+    max-width: 752px;
+}

@@ -1,0 +1,45 @@
+.sidebar {
+    background-color: #dd7538;
+    flex: 0 0 240px;
+    min-height: 100vh;
+    height: 100%;
+    width: 240px;
+    position: fixed;
+}
+
+.burger {
+    display: none;
+    position: fixed;
+    top: 4px;
+    left: 4px;
+    z-index: 1000;
+    background: none;
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #dd7538;
+    transition: 0.3s ease-in-out;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background: #dd7538;
+    z-index: 999;
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+
+    .burger {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
